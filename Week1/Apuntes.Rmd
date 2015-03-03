@@ -1,0 +1,49 @@
+---
+title: 'Reproducible research Semana 1 '
+author: "JMV"
+date: "March 2, 2015"
+output: html_document
+---
+
+# 
+
+Esencialmente la idea es ser ordenadito y saber que se ha hecho en cada paso para poder volver a hacerlo todas las veces que sea necesario (y que no pase que si se va el manolo de datos nadie sepa que cojones estamos haciendo)
+
+
+### Conceptos basicos
+
+* Hay estudios que no son replicables de por si,  por hechos unicos o por que valgan una pasta,  replicar el LHC puede ser un poco jodidillo
+
+* La idea es dar tanto el codigo como los datos para que cualquiera pueda hacer estudios independientes, para mejorar el no poder replicar ciertos estudios, por lo menos poder validar el analisis de datos 
+
+* Las bases de datos se pueden fusionar en mega bases que permite tambien otros estudios
+
+
+* Proceso investigacion
+    + Se usa codigo para pasar en cada paso, de datos brutos a datos analiticos, y de ahi a resultados, y despues se tienen tus codigos de presentacion
+    + Al menos se deberia dar lso datos analiticos, el codigo de analisis, y documentarlo
+    
+* Literate programing:  Mezclar el articulo con datos,  lo que se en una salida markdown por elejmplo  
+    + Swave usa una mezcla de LaTeX y R 
+    + knitr es lo que ando usando y va medio bien  
+
+
+Sin duda la mejor estrategia es hacer todo via scripts que queden grabados, asi no hay problema de que haya un paso que "no sabemos"  escribir
+
+
+# Estructura de un analisis de datos
+
+* Definir la pregunta
+    + Es interesante conseguir una pregunta lo mas concreta distinta
+* Define ideal data set   
+    Depende de como sea el fin que quieras 
+    + Descriptivo  Toda la poblacion
+    + Exploratorio  Random sample
+    + Inferencial   Right population, correct sampled
+    + Predictivo Train test y data set
+    + Causal  datos de estudio randomizado
+    + Mecanicista datos de todos los componentes del sistema a estudiar
+* Determine what data you can get
+* Obtener los datos
+* Limpiar los datos
+    Ojo con los preprocesados, hay que ver en la fuente que hicieron con ellos
