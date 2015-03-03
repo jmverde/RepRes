@@ -47,3 +47,37 @@ Sin duda la mejor estrategia es hacer todo via scripts que queden grabados, asi 
 * Obtener los datos
 * Limpiar los datos
     Ojo con los preprocesados, hay que ver en la fuente que hicieron con ellos
+    
+* Exploratory data analysis
+    + primeros graficos exploratorios
+    + andle missing data
+    + clustering ...
+    + ver resumenes de datos ...
+* Statistical prediction/modeling 
+    + debe partir del estudio exploratorio 
+    + Se deben medir las incertidumbres 
+* Interpret results
+    + Usar lenguaje apropiado
+* Challenge results
+* Synthetise/write up results
+* Create reproducible code
+
+
+## Organizando un analisis
+
+
+Archivos
+* Raw data
+* Proc data
+
+* exploratoria Images
+* Final figures  
+    + Suelen ser un subset de las anteriores, y bastante mas bonitas
+
+* Raw scripts
+    + Ojo con las multiples versiones
+* Final scripts
+* MD files
+
+* Readme
+* Texto del analisis
